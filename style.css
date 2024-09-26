@@ -81,6 +81,10 @@ td {
   background: #33ffbb;
 }
 
+table {
+  border: 4px solid #ff6600;
+}
+
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -126,7 +130,7 @@ td {
 
 .list-side-by-side ul {
   float: left;
-  padding-left: 30px;
+  padding-right: 100px;
 }
 
 .starlabel label:after {
