@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elina Saarelainen - Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>Elina Saarelainen - Empathic Developer</h1>
+      </div>
+      <div id="nav">
+        <ul>
+          <li><a href="index.html">&#129412; MainPage</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div id="main">
+        <h1>Contact Me</h1>
+        <form action="#">
+          <div class="starlabel">
+            <label>Name</label><br />
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label>Age</label><br />
+            <input type="number" id="age" name="age" />
+          </div>
+          <div class="starlabel">
+            <label>E-mail</label><br />
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="starlabel">
+            <label>Message</label><br />
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="checkboxform">
+            <h3>How did you know about my page?</h3>
+            <div class="checkbox-row">
+              <label for="google">Google:</label>
+              <input type="checkbox" id="google" name="google" value="google" />
+            </div>
+            <div class="checkbox-row">
+              <label for="friend">From a friend :</label>
+              <input type="checkbox" id="friend" name="friend" value="friend" />
+            </div>
+            <div class="checkbox-row">
+              <label for="linkedin">From Linkedin:</label>
+              <input type="checkbox" id="li" name="linkedin" value="linkedin" />
+            </div>
+            <div class="checkbox-row">
+              <label for="other">Other:</label>
+              <input type="checkbox" id="other" name="other" value="other" />
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="clr"></div>
+      <div id="footer"></div>
+      <p>Copyright &copy; Elina Saarelainen 2024</p>
+    </div>
+  </body>
+</html>

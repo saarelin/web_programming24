@@ -1,0 +1,158 @@
+body {
+  background: #33ffbb;
+  color: #fff;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 1.4em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.clr {
+  clear: both;
+}
+
+#container {
+  background: #008055;
+  width: 960px;
+  margin: 30px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#nav {
+  height: 40px;
+  background: #33ffbb;
+}
+
+#nav ul {
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+#nav li {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+
+#nav .active {
+  font-weight: bold;
+  color: #00004d;
+}
+
+#navsocial li {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+
+#main {
+  float: left;
+  width: 60%;
+}
+
+#sidebar {
+  float: right;
+  width: fit-content;
+  background: #33ffbb;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#footer {
+  padding: 10px;
+  background: #33ffbb;
+  margin-top: 30px;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  color: #090033;
+  background: #33ffbb;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: fuchsia;
+  color: white;
+}
+
+.fa-email {
+  background: rgb(201, 77, 77);
+  color: white;
+}
+
+.list li {
+  border-bottom: 2px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+.list a {
+  padding: 5px;
+}
+
+.list-side-by-side ul {
+  float: left;
+  padding-left: 30px;
+}
+
+.starlabel label:after {
+  content: " *";
+  color: red;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.checkboxform {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.checkboxform .checkbox-row {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxform label {
+  min-width: 150px;
+}
